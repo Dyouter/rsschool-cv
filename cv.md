@@ -1,9 +1,9 @@
 # Alnykin Danil
 
 ### My Contact Info:
-**Phone number:** +7 910 041 61 95
-**Email:** Mr.DYou_ter_Dan@mail.ru
-**GitHub:** Dyouter
+* **Phone number:** +7 910 041 61 95
+* **Email:** Mr.DYou_ter_Dan@mail.ru
+* **GitHub:** Dyouter
 
 ## About Me
 My name is Danil, I am 18 years old. I was born in Kyrgyzstan in the city of Bishkek. 
