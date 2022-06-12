@@ -1,12 +1,14 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    text-decoration: none;   
+    text-decoration: none;
+    color: #000;
 }
 
 html {
     scroll-behavior: smooth; 
-  }
+}
 
 body {
     display: flex;
@@ -16,47 +18,29 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;  
-}
-
-.section-title {
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #000;
-  }
-
-.section-info{
-    font-size: 20px;
-    margin-top: 20px;
+    color: #000;  
+    background-color: #182E46;
 }
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
-    background-color:  whitesmoke;
+    margin: 20px auto;
+    background-color:  rgba(188, 193, 203, 0.937);
     padding: 30px;
 }
 
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.header {
+    background-color: #C46B19;
 }
 
-  .nav-list {
-    list-style: none;
-  }
+.header-container {
+    background-color: #C46B19;
+    margin-top: 0;
+}
 
-  .nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: .3s;
-    text-decoration: none;
-    color: #000;
-    letter-spacing: 2px;
-  }
+.header-title {
+    margin-bottom: 10px;
+}
 
 .photo {
     height: auto;
@@ -65,10 +49,90 @@ body {
     margin-right: 40px;
 }
 
-.contacts-container{
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-list-skills {
+    padding-left: 15px;
+}
+
+.nav-link {
+    transition: 1s;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.nav-link:hover {
+      color: #fff;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000;
+}
+
+.section-info{
+    font-size: 20px;
+}
+
+.git-link {
+    transition: 1s;
+}
+
+.git-link:hover {
+      color: #fff;
+}
+
+.my-cv-link {
+    transition: 1s;
+}
+
+.my-cv-link:hover {
+      color: #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.contacts-container {
     display: flex;
 }
-.section-contacts{
-    border-bottom: 3px solid rgb(0, 4, 255);
+.section-contacts {
+    border-bottom: 3px solid #182E46;
     margin-bottom: 20px;
+}
+pre {
+    background-color: rgb(24 46 70);
+}
+
+code {
+    color: #b2b8c2;
+}
+
+.footer {
+    background-color: #C46B19;
+}
+
+.footer-container{
+    background-color: #C46B19;
+    margin-bottom: 0;
+}
+
+.rs-logo{
+    height: auto;
+    width: 70px;
+}
+
+.github-logo{
+    height: auto;
+    width: 50px;
 }

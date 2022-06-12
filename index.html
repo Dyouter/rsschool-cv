@@ -11,7 +11,7 @@
 <body>  
     <div>
         <header class="header">
-            <div class="container">
+            <div class="container header-container">
                 <h1 class="header-title" id="header-title">Danil Alnykin</h1>
                 <nav class="nav">
                     <ul class="nav-list">
@@ -21,7 +21,7 @@
                         <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                         <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
                         <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                        <li class="nav-item"><a href="#english level" class="nav-link">English level</a></li>
+                        <li class="nav-item"><a href="#english-level" class="nav-link">English level</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,22 +32,23 @@
                         <img class="photo" src="assets/ava.jpg" alt="avatar">
                         <div class="contacts">
                             <h2 class="section-title section-contacts">Contacts</h2>
-                            <p class="section-info"><b>Phone number:</b> +7 910 041 61 95</p>
-                            <p class="section-info"><b>Email:</b> Mr.DYou_ter_Dan@mail.ru</p>
-                            <p class="section-info"><b>Github:</b> <a class="git-link" href="https://github.com/Dyouter">Dyouter</a></p>
+                            <p class="section-info"><span class="bold">Phone number:</span> +7 910 041 61 95</p>
+                            <p class="section-info"><span class="bold">Email:</span> Mr.DYou_ter_Dan@mail.ru</p>
+                            <p class="section-info"><span class="bold">Github:</span> <a class="git-link" href="https://github.com/Dyouter">Dyouter</a></p>
+                            <p class="section-info"><span class="bold">Telegram:</span> Dyouter</p>
                         </div>
                     </div>
                 </section>
                 <section class="section" id="summary">
                     <div class="container">
-                        <h2 class="section-title">Summary</Summary></h2>
+                        <h2 class="section-title">Summary</h2>
                         <p class="section-info">My name is Danil, I am 18 years old. I was born in Kyrgyzstan in the city of Bishkek. After finishing school I moved to Russia. Now I'm starting to develop in the field of IT</p>
                     </div>
                 </section>
                 <section class="section" id="skills">
                     <div class="container">
                     <h2 class="section-title">Skills</h2>
-                    <ul>
+                    <ul class="nav-list-skills">
                         <li>HTML/CSS(Basic knowledge)</li>
                         <li>Git</li>
                         <li>VSCode</li>
@@ -59,11 +60,11 @@
                     <h2 class="section-title">Code</h2>
                     <pre>
                         <code>
-let i = 0;
-while (i < 3) {
-alert( i );
-i++;
-}
+ function sum(a, b) {
+     return a + b;
+   }
+   
+   alert(`1 + 2 = ${sum(1, 2)}.`);
                         </code>
                     </pre>
                     </div>
@@ -71,16 +72,16 @@ i++;
                 <section class="section" id="project">
                     <div class="container">
                     <h2 class="section-title">Project</h2>
-                    <a href="#header-title">My CV</a>
+                    <a class="my-cv-link" href="#header-title">My CV</a>
                     </div>
                 </section>
                 <section class="section" id="education">
                     <div class="container">
                     <h2 class="section-title">Education</h2>
-                    <p class="section-info">School-gymnasium №31, Bishkek</p>
+                    <p class="section-info">School-gymnasium №31, Bishkek (2021)</p>
                     </div>
                 </section>
-                <section class="section" id="english level">
+                <section class="section" id="english-level">
                     <div class="container">
                     <h2 class="section-title">English level</h2>
                     <p class="section-info">A2</p>
@@ -88,22 +89,23 @@ i++;
                 </section>
         </main>
         <footer class="footer">
-            <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="https://github.com/Dyouter" class="nav-link" target="_blank">
-                            <img src="assets/github.png" alt="github-pages" width="100" height="90">
-
-                    </a>
-                </li>
-                    <li class="nav-item"><a href="https://rs.school/js/" class="nav-link" target="_blank">
-                        <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100" height="100">
-                    </a>
-                </li>
-                    <li class="nav-item"><a href="" class="nav-link"></a></li>
-                </ul>
-            </nav>
+            <div class="container footer-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="https://github.com/Dyouter" class="nav-link" target="_blank">
+                                <img class="github-logo" src="assets/github.png" alt="github-pages">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <p>2022</p>
+                        </li>
+                        <li class="nav-item"><a href="https://rs.school/js/" class="nav-link" target="_blank">
+                                <img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="rsschool">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </footer>
     </div>
