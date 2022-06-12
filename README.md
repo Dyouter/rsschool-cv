@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Dyouter.github.io/rsschool-cv/
