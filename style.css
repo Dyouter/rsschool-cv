@@ -94,6 +94,7 @@ body {
 
 .my-cv-link {
     transition: 1s;
+    display: flex;
 }
 
 .my-cv-link:hover {
